@@ -1,0 +1,48 @@
+body {
+  font-family: var(--font-main), sans-serif;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 16px;
+}
+
+a {
+  color: var(--white);
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+.title {
+  font-family: var(--font-accent), sans-serif;
+  font-size: 36px;
+  color: var(--accent);
+
+  @include mediaTablet {
+    font-size: 28px;
+  }
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}

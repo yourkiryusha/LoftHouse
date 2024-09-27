@@ -1,0 +1,30 @@
+.map {
+  position: relative;
+  padding: 180px 0;
+
+  &::before {
+    content: 'V';
+    right: calc(50% + 555px);
+    line-height: 1.9;
+    z-index: -1;
+    transform: translate(50%, 0);
+    @include backgroundNumbers;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+
+    @include mediaTablet {
+      margin-bottom: 40px;
+    }
+  }
+
+  @include mediaTablet {
+    padding: 90px 0;
+  }
+}
+
+.card {
+  height: 358px;
+  background-color: #626262;
+}
