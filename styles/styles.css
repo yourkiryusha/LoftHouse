@@ -87,21 +87,21 @@ legend {
 
 @font-face {
   font-family: "Raleway";
-  src: url("../../fonts/Raleway-Regular.woff2") format("woff2");
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Playfair";
-  src: url("../../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Light.woff2") format("woff2");
+  src: url("../fonts/Roboto-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -172,7 +172,7 @@ a:hover {
   min-height: 840px;
   padding-top: 30px;
   padding-bottom: 74px;
-  background: linear-gradient(180deg, var(--dark) 11.98%, rgba(45, 52, 60, 0.38) 51.04%, var(--dark) 92.19%), url("../../img/header/header-bg.jpg");
+  background: linear-gradient(180deg, var(--dark) 11.98%, rgba(45, 52, 60, 0.38) 51.04%, var(--dark) 92.19%), url("/img/header/header-bg.jpg");
 }
 @media screen and (max-width: 959px) {
   .header {
